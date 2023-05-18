@@ -4,7 +4,8 @@
   "description": "Micro Service for handling loggins",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "test-coverage": "jest --collect-coverage --passWithNoTests"
   },
   "repository": {
     "type": "git",
