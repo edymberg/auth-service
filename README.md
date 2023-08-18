@@ -1,4 +1,4 @@
-# Login Microservice
+# Auth Service
 
 Provides user identification after a user authenticates through an API using this microservice.
 This is a microservice using NodeJS with Express and MongoDB for handling users authentication.
@@ -38,23 +38,6 @@ For security concerns this one should be stored in an http cookie, this way is n
 * Verified with endpoint and DB
 
 ---
-
-## Usage & Installation
-- `nvm use`
-- `npm ci`
-
-
-### Dependencies:
-* dotenv
-* jsonwebtoken
-* cookie-parser
-* express
-
-### Dev dependencies:
-* eslint
-* jest
-
-
 
 Inspiration from Tutorial: https://www.youtube.com/watch?v=favjC6EKFgw
 * minute 5:45 --> creating access token secrets with crypto random strings
