@@ -19,6 +19,8 @@ This is a microservice using NodeJS with Express and MongoDB.
 
 ## Local Setup
 
+BROKEN:
+
 You can startup the DB using a Docker image as follows:
 * `docker build -f Dockerfile.mongoDB . -t authmongodb`
 * `docker run --publish 27017:27017 authmongodb`  
