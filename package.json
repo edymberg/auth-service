@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GianFF/auth-service.git"
+    "url": "git+https://github.com/edymberg/auth-service.git"
   },
   "author": "Gian Franco Fioriello",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GianFF/auth-service/issues"
+    "url": "https://github.com/edymberg/auth-service/issues"
   },
-  "homepage": "https://github.com/GianFF/auth-service#readme",
+  "homepage": "https://github.com/edymberg/auth-service#readme",
   "dependencies": {
     "aws-sdk": "^2.1421.0",
     "bcrypt": "^5.1.1",

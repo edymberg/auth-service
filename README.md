@@ -37,7 +37,7 @@ And then just start the server:
 ## Testing
 The intention is to have a high code coverage, but not more important is to have the core features well tested (unit and integration).
 
-Go to: [Testing REAMDE](https://github.com/GianFF/auth-service/blob/main/test/README.MD)
+Go to: [Testing REAMDE](https://github.com/edymberg/auth-service/blob/main/test/README.md)
 
 ## Architectural Decisions
 * Github Actions for CI/CD running workflos on main branch.
