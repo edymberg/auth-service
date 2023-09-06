@@ -15,7 +15,7 @@ function onAppCrash() {
 mongoose.connection.on('connected', () => {
   console.log('MongoDB connected');
 
-  const port = config.PORT || 3000;
+  const port = config.PORT || 3001;
   app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
     console.log(`Server running on ${config.NODE_ENV} mode`);
